@@ -9,10 +9,12 @@ class Fraction{
         int denominator;
     
     public:
+        //constructor
         Fraction(int nume, int deno){
             setNumbers(nume, deno);
         }
-
+        
+        //places values in private
         void setNumbers(int nume, int deno){
             this->numerator = nume;
             this->denominator = deno;
